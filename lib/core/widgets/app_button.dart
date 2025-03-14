@@ -27,7 +27,7 @@ class AppButton extends StatelessWidget {
         ),
         backgroundColor: backgroundColor ?? Colors.transparent,
         padding: EdgeInsets.symmetric(horizontal: 10.w, vertical: 12.h),
-        fixedSize: Size(double.maxFinite, 50.h),
+        fixedSize: Size(double.maxFinite, 60.h),
       ),
       onPressed: onPressed,
       child: child,

@@ -13,4 +13,20 @@ class TextStyles {
     color: ColorsManager.veryDarkGray,
     fontSize: 22.sp,
   );
+
+  static TextStyle font26VeryDarkGray = TextStyle(
+    color: ColorsManager.veryDarkGray,
+    fontSize: 26.sp,
+    height: 1.2.h,
+  );
+
+  static TextStyle font22White = TextStyle(
+    color: Colors.white,
+    fontSize: 22.sp,
+  );
+
+  // static TextStyle font22VeryDarkGray = TextStyle(
+  //   color: ColorsManager.veryDarkGray,
+  //   fontSize: 22.sp,
+  // );
 }
