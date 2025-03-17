@@ -25,8 +25,8 @@ class TextStyles {
     fontSize: 22.sp,
   );
 
-  // static TextStyle font22VeryDarkGray = TextStyle(
-  //   color: ColorsManager.veryDarkGray,
-  //   fontSize: 22.sp,
-  // );
+  static TextStyle font22ModerateViolet = TextStyle(
+    color: ColorsManager.moderateViolet,
+    fontSize: 22.sp,
+  );
 }

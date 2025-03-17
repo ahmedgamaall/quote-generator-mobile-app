@@ -10,7 +10,7 @@ import 'package:quote_generator_mobile_app/quote_generator_app.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  setupDi();
+  await setupDi();
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(statusBarColor: ColorsManager.vividViolet),
   );

@@ -1,7 +1,10 @@
 class ApiConstants {
-  static const String apiBaseUrl = "https://api.quotable.io";
-
-  static const String quotes = "/quotes";}
+  // static const String apiBaseUrl = "https://api.quotable.io";
+  // static const String random = "/random";
+  
+  static const String apiBaseUrl = "https://api.breakingbadquotes.xyz/v1";
+  static const String quotes = "/quotes";
+}
 
 class ApiErrors {
   static const String badRequestError = "badRequestError";
